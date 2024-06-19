@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Registration Form</title>
+</head>
+<body>
+  <h2 style="color: blue;">Registration form</h2>
+  <table border="1" cellspacing="0" cellpadding="0">
+    <tr>
+      <td>First Name:</td>
+      <td><input type="text" id="firstName"></td>
+    </tr>
+    <tr>
+      <td>Last Name:</td>
+      <td><input type="text" id="lastName"></td>
+    </tr>
+    <tr>
+      <td>Email:</td>
+      <td><input type="email" id="email"></td>
+    </tr>
+    <tr>
+      <td>Password:</td>
+      <td><input type="password" id="password"></td>
+    </tr>
+    <tr>
+      <td>Re-enter Password:</td>
+      <td><input type="password" id="rePassword"></td>
+    </tr>
+    <tr>
+      <td>Gender:</td>
+      <td>
+        <input type="radio" id="male" name="gender" value="Male">
+        <label for="male">Male</label>
+        <input type="radio" id="female" name="gender" value="Female">
+        <label for="female">Female</label>
+      </td>
+    </tr>
+    <tr>
+      <td>Age:</td>
+      <td><input type="number" id="age"></td>
+    </tr>
+    <tr>
+      <td>Phone Number:</td>
+      <td><input type="tel" id="phone"></td>
+    </tr>
+    <tr>
+      <td>Address:</td>
+      <td><textarea id="address" rows="3"></textarea></td>
+    </tr>
+    <tr>
+      <td>State:</td>
+      <td><input type="text" id="state"></td>
+    </tr>
+    <tr>
+      <td>Country:</td>
+      <td>
+        <select id="country">
+          <option value="">Choose your country</option>
+          <!-- Add country options here -->
+          <option value="india">India</option>
+          <option value="usa">USA</option>
+          <option value="uk">UK</option>
+        </select>
+      </td>
+    </tr>
+    <tr>
+      <td>Languages Known:</td>
+      <td>
+        <input type="checkbox" id="english" name="languages" value="English">
+        <label for="english">English</label>
+        <input type="checkbox" id="kannada" name="languages" value="Kannada">
+        <label for="kannada">Kannada</label>
+        <input type="checkbox" id="hindi" name="languages" value="Hindi">
+        <label for="hindi">Hindi</label>
+        <input type="checkbox" id="telugu" name="languages" value="Telugu">
+        <label for="telugu">Telugu</label>
+      </td>
+    </tr>
+    <tr>
+      <td colspan="2">
+        <input type="checkbox" id="declaration">
+        <label for="declaration">Hereby I declare all the given details are true</label>
+      </td>
+    </tr>
+    <tr>
+      <td colspan="2" style="text-align: right;">
+        &nbsp;&nbsp;&nbsp;&nbsp;<a href="#">Log in to Ethnus website</a>
+      </td>
+    </tr>
+  </table>
+  <button id="registerBtn">Register</button>
+</body>
+</html>
